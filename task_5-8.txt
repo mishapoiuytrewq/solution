@@ -1,0 +1,16 @@
+(5) explain some of the ways hashing functions enable blockchain technology
+- hashing transactions and blocks
+
+(6) briefly explain Bitcoin's UTXO model of transaction validation (separate from POW)
+null
+
+(7) what is the structure of a Block in bitcoin and how does it relate to the 'blockchain' (merkle tree vs merkle list of merkle trees)
+merkle tree - allows you to verify transactions in a block using hashing
+
+(8) what problem/sure POW/POS trying to solve? discuss/compare (byzantine fault tolerance, reaching a single consensus on a p2p network
+Pow/pos are needed to prevent ddos attacks on the network by blocks, and to regulate block rewards.
+Pow:
+- high consumption of electric energy
+- hacking requires capturing 51% of the network
+Pos:
+- hacking requires the capture of 51% of funds
